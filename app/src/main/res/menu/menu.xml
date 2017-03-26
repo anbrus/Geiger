@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/measureStart"
+              android:title="Start"
+              android:icon="@mipmap/measure_start"
+              android:showAsAction="always"
+              android:visible="false"
+        />
+        <item android:id="@+id/measureStop"
+              android:title="Stop"
+              android:icon="@mipmap/measure_stop"
+              android:showAsAction="always"
+              android:visible="false"
+        />
+        <item android:id="@+id/soundOn"
+              android:title="Sound on"
+              android:icon="@mipmap/sound_on"
+              android:showAsAction="always"
+              android:visible="false"
+        />
+        <item android:id="@+id/soundOff"
+              android:title="Sound off"
+              android:icon="@mipmap/sound_off"
+              android:showAsAction="always"
+              android:visible="false"
+        />
+</menu>
